@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>قطوف — شركة تصدير أعشاب طبيعية | Qotouf Herbs Export</title>
+  <meta name="description" content="قطوف (Qotouf) شركة توريد وتصدير أعشاب طبيعية وطبية وعطرية من مصر إلى العالم. Herbs export company from Egypt — sourcing, quality control, and global shipping.">
+  <meta name="keywords" content="أعشاب, أعشاب طبيعية, أعشاب طبية, تصدير أعشاب, شركات تصدير اعشاب, اعشاب مصر, herbs export, egypt herbs, medicinal herbs, aromatic herbs">
+  <link rel="canonical" href="https://qotouf.netlify.app/">
+  <meta name="theme-color" content="#1e6c93">
+  <!-- Open Graph -->
+  <meta property="og:site_name" content="Qotouf">
+  <meta property="og:title" content="Qotouf — Herbs Export Company | شركة تصدير أعشاب">
+  <meta property="og:description" content="توريد وتصدير أعشاب طبيعية من مصر للعالم. Sourcing & exporting Egyptian herbs.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://qotouf.netlify.app/">
+  <meta property="og:image" content="https://lh3.googleusercontent.com/sitesv/AAzXCkfL4Dijqms7rgOj5m9821ax--K9JJ_G_B-MGKq-zCHtvQ1AnbZoI92wxOdHC9924XYfDuCM_SjWOUcdKvPhz6_SGg2nZRF1NvIvgcE41mv_UfCDRiDDuZkTetwOqjYbPV5hxC9o4-JYNiRABFEjaFXxitAk-tlQ0U46R1NBWApOMkUI1hKWVHtYJnQNJ9-2Uf6RvNxdb4HBkyH5gxs7K-1giJqsZtlxdw=w1280">
+  <meta property="og:locale" content="ar_EG">
+  <meta property="og:locale:alternate" content="en_US">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Qotouf — Herbs Export Company">
+  <meta name="twitter:description" content="Exporting Egyptian natural & medicinal herbs worldwide.">
+  <meta name="twitter:image" content="https://lh3.googleusercontent.com/sitesv/AAzXCkfL4Dijqms7rgOj5m9821ax--K9JJ_G_B-MGKq-zCHtvQ1AnbZoI92wxOdHC9924XYfDuCM_SjWOUcdKvPhz6_SGg2nZRF1NvIvgcE41mv_UfCDRiDDuZkTetwOqjYbPV5hxC9o4-JYNiRABFEjaFXxitAk-tlQ0U46R1NBWApOMkUI1hKWVHtYJnQNJ9-2Uf6RvNxdb4HBkyH5gxs7K-1giJqsZtlxdw=w1280">
+  <!-- Preconnect for fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Aclonica&display=swap" rel="stylesheet">
+  <style>
+    :root{--brand:#226e93;--text:#212121;--muted:#666;--bg:#ffffff;--bg-alt:#f7f9fb}
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:Lato,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial,"Noto Sans",sans-serif;scroll-behavior:smooth}
+    a{color:var(--brand);text-decoration:none} a:hover{text-decoration:underline}
+    .header{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid #e5e5e5}
+    .container{max-width:1120px;margin:auto;padding:0 16px}
+    .nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+    .brand{display:flex;align-items:center;gap:10px;font-weight:900;letter-spacing:.5px}
+    .brand .logo{display:inline-grid;place-items:center;width:36px;height:36px;border-radius:8px;background:var(--brand);color:#fff;font-weight:900}
+    .brand .name{font-size:20px}
+    .menu{display:flex;gap:20px;align-items:center}
+    .menu a{font-weight:700;color:#000}
+    .menu a.btn{padding:10px 14px;border-radius:10px;background:var(--brand);color:#fff}
+    .menu-toggle{display:none;border:0;background:transparent;font-size:0}
+    .menu-toggle svg{width:28px;height:28px}
+    @media (max-width:768px){.menu{display:none;position:absolute;top:64px;left:0;right:0;background:#fff;border-bottom:1px solid #eee;flex-direction:column;align-items:flex-start;padding:12px 16px}.menu.show{display:flex}.menu-toggle{display:block}}
+    .hero{position:relative;min-height:340px;display:grid;align-items:center;background:linear-gradient(0deg,rgba(33,33,33,.4),rgba(33,33,33,.4)), url('https://ssl.gstatic.com/atari/images/simple-header-blended-small.png') center/cover no-repeat, var(--brand);color:#fff}
+    .hero .inner{padding:60px 0}
+    .pretitle{opacity:.9;font-size:14px;letter-spacing:.1em;text-transform:uppercase}
+    .title{font-family:Lato, sans-serif;font-weight:900;line-height:1.2;margin:.25em 0;font-size:34px}
+    .subtitle{font-size:18px;opacity:.95}
+    .cta{margin-top:24px;display:flex;gap:12px;flex-wrap:wrap}
+    .btn{display:inline-block;padding:12px 16px;border-radius:12px;font-weight:700}
+    .btn-primary{background:#fff;color:var(--brand)}
+    .btn-outline{border:2px solid #fff;color:#fff}
+    @media (max-width:480px){.title{font-size:26px}.subtitle{font-size:16px}}
+    section{padding:48px 0}
+    .section-title{font-size:28px;color:var(--brand);font-weight:900;margin:0 0 10px}
+    .section-lead{font-size:16px;color:var(--muted);max-width:760px}
+    .lead-center{text-align:center;margin:0 auto 28px}
+    .grid{display:grid;gap:20px;grid-template-columns:repeat(12,1fr)}
+    .card{grid-column:span 12;background:#fff;border:1px solid #eee;border-radius:16px;overflow:hidden}
+    .card .media{display:block;max-height:420px;overflow:hidden}
+    .card img{width:100%;height:auto;display:block}
+    .card .content{padding:18px}
+    @media (min-width:768px){.card{grid-column:span 6}}
+    footer{background:#212121;color:#fff}
+    footer .cols{display:grid;gap:20px;grid-template-columns:repeat(12,1fr);padding:32px 0}
+    footer .col{grid-column:span 12}
+    footer a{color:#b8e7f3}
+    @media (min-width:768px){footer .col{grid-column:span 4}}
+    .tiny{border-top:1px solid #333;opacity:.8;font-size:13px;padding:12px 0}
+    .lang-switch{display:flex;gap:10px;align-items:center}
+    [dir="rtl"] .title{letter-spacing:.2px}
+  </style>
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Organization",
+    "name":"Qotouf",
+    "url":"https://qotouf.netlify.app/",
+    "description":"Herbs export company from Egypt — توريد وتصدير الأعشاب الطبيعية",
+    "logo":"https://qotouf.netlify.app/logo.png"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebSite",
+    "name":"Qotouf",
+    "url":"https://qotouf.netlify.app/",
+    "inLanguage":"ar",
+    "potentialAction":{
+      "@type":"SearchAction",
+      "target":"https://qotouf.netlify.app/?q={search_term_string}",
+      "query-input":"required name=search_term_string"
+    }
+  }
+  </script>
+  <link rel="alternate" hreflang="x-default" href="https://qotouf.netlify.app/">
+  <link rel="alternate" hreflang="ar-eg" href="https://qotouf.netlify.app/">
+</head>
+<body dir="rtl">
+  <a class="sr-only" href="#main">تخطي إلى المحتوى</a>
+  <header class="header" role="banner">
+    <div class="container nav">
+      <a class="brand" href="#">
+        <span class="logo" aria-hidden="true">Q</span>
+        <span class="name">Qotouf</span>
+      </a>
+      <div class="lang-switch" style="margin-inline-start:auto;margin-inline-end:16px">
+        <a href="#ar" aria-current="page">العربية</a> · <a href="#en" hreflang="en">English</a>
+      </div>
+      <button class="menu-toggle" aria-expanded="false" aria-label="فتح القائمة">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+      </button>
+      <nav class="menu" aria-label="روابط الصفحة">
+        <a href="#home">الرئيسية</a>
+        <a href="#about">من نحن</a>
+        <a href="#services">الخدمات</a>
+        <a href="#contact" class="btn btn-primary">تواصل</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="home" class="hero" role="region" aria-label="الترحيب">
+      <div class="container inner">
+        <p class="pretitle">Qotouf</p>
+        <h1 class="title">شركة تصدير أعشاب طبيعية من مصر</h1>
+        <p class="subtitle">نوفّر <strong>أعشابًا طبيعية وطبية وعطرية</strong> بجودة عالية—توريد، فحص جودة، وتصدير عالمي.</p>
+        <div class="cta">
+          <a class="btn btn-primary" href="#contact">اطلب عرض أسعار</a>
+          <a class="btn btn-outline" href="#services">اعرف خدماتنا</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">من نحن</h2>
+        <p class="section-lead">قطوف (Qotouf) شريكك الموثوق في <strong>سوق الأعشاب</strong>—من اختيار الموردين حتى الشحن الدولي.</p>
+        <div class="grid">
+          <article class="card">
+            <a class="media" href="https://sites.google.com/view/qotouf/home" target="_blank" rel="noopener">
+              <img loading="lazy" alt="Qotouf cover" src="https://lh3.googleusercontent.com/sitesv/AAzXCkfL4Dijqms7rgOj5m9821ax--K9JJ_G_B-MGKq-zCHtvQ1AnbZoI92wxOdHC9924XYfDuCM_SjWOUcdKvPhz6_SGg2nZRF1NvIvgcE41mv_UfCDRiDDuZkTetwOqjYbPV5hxC9o4-JYNiRABFEjaFXxitAk-tlQ0U46R1NBWApOMkUI1hKWVHtYJnQNJ9-2Uf6RvNxdb4HBkyH5gxs7K-1giJqsZtlxdw=w1280">
+            </a>
+            <div class="content">
+              <p>زر النسخة الأصلية على Google Sites.</p>
+              <p><a href="https://sites.google.com/view/qotouf/home" target="_blank" rel="noopener">فتح الصفحة الأصلية</a></p>
+            </div>
+          </article>
+          <article class="card">
+            <div class="content">
+              <h3 style="margin-top:0">Why Qotouf?</h3>
+              <ul>
+                <li>سلاسل توريد موثوقة للأعشاب المصرية الشائعة (نعناع، كركديه، بابونج، حلبة...)</li>
+                <li>فحص جودة وتعبئة وفق متطلبات الاستيراد المتعددة</li>
+                <li>ترتيب الشحن والتخليص عبر شركاء لوجستيات معتمدين</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" style="background:var(--bg-alt)">
+      <div class="container">
+        <h2 class="section-title">الخدمات</h2>
+        <p class="section-lead lead-center">توريد الأعشاب • مراقبة الجودة • التصدير والشحن</p>
+        <div class="grid">
+          <article class="card"><div class="content"><h3>توريد الأعشاب</h3><p>اختيار موردين معتمدين، عقود توريد مرنة، وأسعار تنافسية.</p></div></article>
+          <article class="card"><div class="content"><h3>فحص الجودة</h3><p>مطابقة المواصفات، عينات قبل الشحن، وتقارير فنية عند الطلب.</p></div></article>
+          <article class="card"><div class="content"><h3>التصدير والشحن</h3><p>تنسيق الشحن الدولي والوثائق المطلوبة حتى ميناء الوصول.</p></div></article>
+          <article class="card"><div class="content"><h3>دعم المشتري</h3><p>تواصل سريع، تحديثات حالة الطلب، وخيارات تغليف.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq">
+      <div class="container">
+        <h2 class="section-title">FAQ — أسئلة شائعة</h2>
+        <div class="grid">
+          <article class="card"><div class="content"><h3>ما هي أقل كمية؟</h3><p>تختلف حسب الصنف وطريقة الشحن. يمكن البدء بكمية تجريبية.</p></div></article>
+          <article class="card"><div class="content"><h3>طرق الدفع؟</h3><p>تحويلات بنكية قياسية؛ التفاصيل تُتفق لكل طلب.</p></div></article>
+          <article class="card"><div class="content"><h3>الدول التي يمكن الشحن إليها؟</h3><p>يمكن الترتيب لمعظم الوجهات عبر شركائنا.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="en" aria-label="English section" style="background:var(--bg-alt)">
+      <div class="container">
+        <h2 class="section-title" dir="ltr" style="text-align:start">Qotouf — Herbs Export</h2>
+        <p class="section-lead" dir="ltr">Egyptian <strong>natural & medicinal herbs</strong> exporter — sourcing, quality checks, and global shipping.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">تواصل معنا</h2>
+        <p class="section-lead">راسلنا عبر النسخة الأصلية أو زرنا لاحقًا بعد إضافة بيانات الاتصال.</p>
+        <p><a href="https://sites.google.com/view/qotouf/home/contact" target="_blank" rel="noopener">صفحة التواصل الأصلية</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <div class="container cols">
+      <div class="col">
+        <div class="brand" style="color:#fff"><span class="logo">Q</span><span class="name">Qotouf</span></div>
+        <p class="section-lead" style="color:#cbd6da;margin:10px 0 0">شركة تصدير أعشاب طبيعية من مصر.</p>
+      </div>
+      <div class="col">
+        <h3 style="margin:0 0 8px">روابط</h3>
+        <p><a href="#home">الرئيسية</a> · <a href="#about">من نحن</a> · <a href="#services">الخدمات</a> · <a href="#contact">تواصل</a></p>
+      </div>
+      <div class="col">
+        <h3 style="margin:0 0 8px">Original</h3>
+        <p><a href="https://sites.google.com/view/qotouf/home" target="_blank" rel="noopener">Google Sites version</a></p>
+      </div>
+    </div>
+    <div class="container tiny">© <span id="year"></span> Qotouf. All rights reserved.</div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.menu-toggle');
+    const menu = document.querySelector('.menu');
+    toggle.addEventListener('click', () => {{ const open = menu.classList.toggle('show'); toggle.setAttribute('aria-expanded', open ? 'true' : 'false'); }});
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    (function() {{
+      const faqs = [
+        {{"q":"ما هي أقل كمية؟","a":"تختلف حسب الصنف وطريقة الشحن. يمكن البدء بكمية تجريبية."}},
+        {{"q":"طرق الدفع؟","a":"تحويلات بنكية قياسية؛ التفاصيل تُتفق لكل طلب."}},
+        {{"q":"الدول التي يمكن الشحن إليها؟","a":"يمكن الترتيب لمعظم الوجهات عبر شركائنا."}}
+      ];
+      const ld = {{"@context":"https://schema.org","@type":"FAQPage","mainEntity":faqs.map(f=>({{"@type":"Question","name":f.q,"acceptedAnswer":{{"@type":"Answer","text":f.a}}}}))}};
+      const s = document.createElement('script'); s.type='application/ld+json'; s.textContent = JSON.stringify(ld); document.head.appendChild(s);
+    }})();
+  </script>
+</body>
+</html>

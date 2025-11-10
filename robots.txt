@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://qotouf.netlify.app/sitemap.xml
